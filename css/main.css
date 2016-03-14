@@ -1,0 +1,41 @@
+html {
+	box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+*, *::before, *::after {
+	box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+.banner {
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+}
+
+.img-flex {
+  display: block;
+  width: 100%;
+}
+
+.banner-title {
+  font-size: 4rem;
+  margin: 0;
+}
+
+.banner-info {
+  font-style: italic;
+  font-size: 2rem;
+  margin: 0.5rem;
+}
+
+.banner-content {
+  left: 50%;
+  bottom: 1.5rem;
+  position: absolute;
+  transform: translateX(-50%);
+}
